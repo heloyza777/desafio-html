@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  :root{
+    --color--header:#6f977f;
+    --color--link:#fff;
+    --color-btn-saiba-mais:#6f977f;
+  
+  }
+
+  .menu-nav{
+    background-color:var(--color--header);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+  }
+
+ .menu-nav .menu{
+    display: flex;
+  }
+  
+  
+  .menu-nav .menu li{
+  
+    list-style: none;
+    padding-right: 10px;
+  
+  }
+  
+  .menu-nav .menu li a{
+  text-decoration: none;
+  color: var(--color--link);
+  text-transform: uppercase;
+  padding: 20px;
+  
+  }
+  
+  .menu-nav .menu li a:hover{
+  
+    background-color: #6f977f;
+    color: #000;
+    transition: all 0.4s ease-in-out; 
+  }
+  
+  #cabecalho img{
+  width: 100%;
+  height: 400px;
+      
+  }
+
+.cards{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+  }
+  
+  #card01 img{
+    width: 200px;
+    border-radius: 5px;
+    
+  }
+  #card01{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  
+  #card02 img{
+  width: 200px;
+  border-radius: 5px;
+  }
+  
+  #card02{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #card03 img{
+  width: 200px;
+  border-radius: 5px;
+  
+  }
+  
+  #card03{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .btn{
+  background-color: var(--color-btn-saiba-mais);
+  margin:5px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer ;
+  }
+  
+  .btn:hover{
+    background-color: rgba(102, 146, 119, 0.664);
+    transition: all 0.4s ease-in-out; 
+  }
+
+
+  .cards-depoimentos{
+    width: 100%;
+    gap:10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 150px;
+    
+  }
+  
+  #depoimento01 img{
+    width: 150px;
+    border-radius: 5px;
+    
+  }
+  
+  #depoimento01{
+  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  #depoimento02 img{
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  #depoimento02{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; 
+   }
+
+  #depoimento03 img{ 
+    width: 300px;
+    border-radius: 5px
+    }
+
+      #depoimentos03{  
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;   
+      }  
+
+  .rodape{
+ color: #000;
+ text-align: center;
+}
+
